@@ -14,10 +14,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
     />
 
     <div class="wrapper">
-      <HelloWorld
-        class="rounded-full bg-amber-400 text-xl hover:text-5xl"
-        msg="You did it!"
-      />
+      <HelloWorld msg="You did it!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
