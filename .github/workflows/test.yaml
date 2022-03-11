@@ -28,6 +28,10 @@ jobs:
       - name: Run linting
         run: yarn lint
 
+      # Required for e2e testing.
+      - name: Build the project
+        run: yarn build
+
       - name: Run unit and e2e tests
         run: |
           yarn test:unit:ci --coverage
