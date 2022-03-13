@@ -103,14 +103,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
-}
-
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -121,8 +113,7 @@ header {
   margin: 0 auto 2rem;
 }
 
-a,
-.green {
+a {
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
@@ -141,14 +132,6 @@ nav {
   margin-top: 2rem;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
 nav a {
   display: inline-block;
   padding: 0 1rem;
@@ -163,12 +146,6 @@ nav a:first-of-type {
   body {
     display: flex;
     place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
   }
 
   header {
