@@ -3,7 +3,9 @@ import { createPinia } from "pinia";
 
 import App from "./App.vue";
 import router from "./router";
-import "@/styles.scss";
+
+// Global styles including Tailwind.
+import "@/assets/base.scss";
 
 const app = createApp(App);
 
