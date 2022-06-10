@@ -1,94 +1,86 @@
-<br />
-<p align="center">
-  <a href="https://github.com/boilercodes/vue">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png" alt="Logo" width="80" height="80">
-  </a>
+# [Vue Template][website] &middot; [![GitHub license]](./LICENSE) ![Test Action] ![Deploy Action]
 
-<h3 align="center">Vue</h3>
+This is our fully-featured, simple to use template for new Vue projects. Not only it includes everything your need
+to get started, from the basics to the most advanced features, but it also keeps everything organized through modern coding
+conventions.
 
-  <p align="center">
-    An approachable, performant and versatile framework for building web user interfaces
-    <br />
-    <a href="https://github.com/boilercodes/vue"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://rmenai-blueprints.github.io/vue/">View Demo</a>
-    ·
-    <a href="https://github.com/boilercodes/vue/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
-    ·
-    <a href="https://github.com/boilercodes/vue/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
-  </p>
+By default, this template deploys a static build of the website to GitHub Pages, which you can check out [here][website].
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#features">Features</a></li>
-    <ul>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#github">Github</a></li>
-    </ul>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+<!-- Table of Contents -->
 
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-This is the template I use when creating websites with Vue.
-It is pretty much complete, containing all the tools you need for a professional website.
-
-<!-- Usage -->
+- [Usage](#usage)
+- [Features](#features)
+  - [Project](#project)
+  - [Github](#github)
+- [License](#license)
+- [Contact](#contact)
 
 ## Usage
 
-All you need to do is click on the "Use this template" button. When the repo is created a GitHub action will start. It
-will change all the files to match your repository.
-
-<!-- Features -->
+All you need to do is click on the [Use this template] button. When your repo is created, wait at least 20 seconds until
+the running action ends.
 
 ## Features
 
-### Project:
+### Project
 
-- [Vue CLI](https://cli.vuejs.org/) for building the project.
-- [Yarn](https://yarnpkg.com/) for managing dependencies.
-- [Typescript](https://www.typescriptlang.org/) for writing efficient code.
-- [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for code formatting.
-- [Husky](https://typicode.github.io/husky/) for pre-commit hooks.
-- [Vite](https://vitejs.org/) for blazing fast build times.
-- [Cypress](https://www.cypress.io/) for end-to-end testing.
+- [Cypress]for end-to-end testing.
+- [ESLint] and [Prettier] for code formatting.
+- [Husky] for pre-commit hooks.
+- [Pinia] for state management.
+- [Scss] and [TailwindCSS] for writing efficient CSS.
+- [Typescript] for writing efficient code.
+- [Vite] for blazing fast build times.
+- [Vitest] for unit testing.
+- [Vue CLI] for building the project.
+- [Yarn] for managing dependencies.
 
-### GitHub:
+### GitHub
 
-- [Test](https://github.com/boilercodes/vue/blob/main/.github/workflows/test.yaml) and
-  [Deploy](https://github.com/boilercodes/vue/blob/main/.github/workflows/deploy.yaml) GitHub workflows.
-
-- [Issues](https://github.com/boilercodes/vue/tree/main/.github/ISSUE_TEMPLATE)
-  and [pull requests](https://github.com/boilercodes/vue/blob/main/.github/pull_request_template.md) templates.
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-See [CONTRIBUTING.md](https://github.com/boilercodes/vue/blob/main/CONTRIBUTING.md) for ways to get started.
-
-<!-- LICENSE -->
+- [Community Standards] files.
+- [Issues](./.github/ISSUE_TEMPLATE) and [Pull Requests](./.github/pull_request_template.md) templates.
+- [Production] environment with automated deployments.
+- [Releases] with auto-generated release notes.
+- [Test](./.github/workflows/test.yaml) and [Deploy](./.github/workflows/deploy.yaml) GitHub workflows.
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/boilercodes/vue/blob/main/LICENSE) for more
-information.
-
-<!-- CONTACT -->
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 ## Contact
 
-Menai Rami - [@menai_rami](https://twitter.com/menai_rami) - rami.menai@outlook.com
+Rami Menai - [@menai_rami][twitter] - [rami.menai@outlook.com][email]
+
+<!-- Packages Links -->
+
+[cypress]: https://www.cypress.io/
+[eslint]: https://eslint.org/
+[husky]: https://typicode.github.io/husky/
+[pinia]: https://pinia.vuejs.org/
+[prettier]: https://prettier.io/
+[scss]: https://sass-lang.com/
+[tailwindcss]: https://tailwindcss.com/
+[typescript]: https://www.typescriptlang.org/
+[vite]: https://vitejs.dev/
+[vitest]: https://vitest.dev/
+[vue cli]: https://cli.vuejs.org/
+[yarn]: https://yarnpkg.com/
+
+<!-- Repository links -->
+
+[community standards]: https://github.com/boilercodes/angular/community
+[production]: https://github.com/boilercodes/angular/deployments/activity_log?environment=github-pages
+[releases]: https://github.com/boilercodes/angular/releases/
+[use this template]: https://github.com/boilercodes/angular/generate
+[website]: https://boilercodes.github.io/angular/
+
+<!-- Shields.io links -->
+
+[deploy action]: https://github.com/boilercodes/angular/actions/workflows/deploy.yaml/badge.svg
+[github license]: https://img.shields.io/badge/license-MIT-blue.svg
+[test action]: https://github.com/boilercodes/angular/actions/workflows/test.yaml/badge.svg
+
+<!-- Social Media links -->
+
+[email]: mailto:rami.menai@outlook.com
+[twitter]: https://twitter.com/menai_rami
