@@ -68,17 +68,17 @@ Rami Menai - [@menai_rami][twitter] - [rami.menai@outlook.com][email]
 
 <!-- Repository links -->
 
-[community standards]: https://github.com/boilercodes/angular/community
-[production]: https://github.com/boilercodes/angular/deployments/activity_log?environment=github-pages
-[releases]: https://github.com/boilercodes/angular/releases/
-[use this template]: https://github.com/boilercodes/angular/generate
-[website]: https://boilercodes.github.io/angular/
+[community standards]: https://github.com/boilercodes/vue/community
+[production]: https://github.com/boilercodes/vue/deployments/activity_log?environment=github-pages
+[releases]: https://github.com/boilercodes/vue/releases/
+[use this template]: https://github.com/boilercodes/vue/generate
+[website]: https://boilercodes.github.io/vue/
 
 <!-- Shields.io links -->
 
-[deploy action]: https://github.com/boilercodes/angular/actions/workflows/deploy.yaml/badge.svg
+[deploy action]: https://github.com/boilercodes/vue/actions/workflows/deploy.yaml/badge.svg
 [github license]: https://img.shields.io/badge/license-MIT-blue.svg
-[test action]: https://github.com/boilercodes/angular/actions/workflows/test.yaml/badge.svg
+[test action]: https://github.com/boilercodes/vue/actions/workflows/test.yaml/badge.svg
 
 <!-- Social Media links -->
 
