@@ -48,7 +48,7 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 [cypress]: https://www.cypress.io
 [eslint]: https://eslint.org
 [node.js]: https://nodejs.org/en/
-[vitest]: https://vitest.io
+[vitest]: https://vitest.dev
 [yarn]: https://yarnpkg.com/
 
 <!-- Repository links -->
