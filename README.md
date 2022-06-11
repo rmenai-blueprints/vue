@@ -24,7 +24,7 @@ the running action ends.
 
 ### Project
 
-- [Cypress]for end-to-end testing.
+- [Cypress] for end-to-end testing.
 - [ESLint] and [Prettier] for code formatting.
 - [Husky] for pre-commit hooks.
 - [Pinia] for state management.
